@@ -1,0 +1,13 @@
+# secrets — never commit a key, always export it
+.env
+*.key
+keys.json
+
+# run artifacts
+harness/out/
+tools/frames/
+tools/html/
+.build/
+__pycache__/
+*.pyc
+.DS_Store

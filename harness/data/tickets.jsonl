@@ -1,0 +1,12 @@
+{"id": "T-001", "text": "Our invoice for August shows a plan we cancelled in July. We were charged 249 SAR twice. Please refund and confirm the cancellation is really closed.", "gold_queue": "billing"}
+{"id": "T-002", "text": "The dashboard export button does nothing for the last two days. No error, just spins forever. Chrome on Windows, our whole team sees it.", "gold_queue": "technical"}
+{"id": "T-003", "text": "I cannot log in after we rotated our SSO provider. We use Azure AD. Our tenant id is in the attachment. Nobody from our company can get in since this morning.", "gold_queue": "account"}
+{"id": "T-004", "text": "Someone is emailing our customers pretending to be your support team asking for card numbers. Forwarding the message. Do you need the headers?", "gold_queue": "security"}
+{"id": "T-005", "text": "Is there any way to schedule a recurring report on Mondays at 8am Riyadh time? We export it by hand every week and it takes an hour.", "gold_queue": "feature_request"}
+{"id": "T-006", "text": "How do I add a second user? I looked in settings and could not find it. Not urgent, just planning for a colleague who joins next month.", "gold_queue": "account"}
+{"id": "T-007", "text": "Your webhook stopped sending events at 03:14 UTC. We lost about 900 events. We need them replayed or we will need a written explanation for our auditors.", "gold_queue": "technical"}
+{"id": "T-008", "text": "We were quoted 4,900 SAR for annual prepay in March but the renewal email says 7,200. Who is right? Attaching both emails.", "gold_queue": "billing"}
+{"id": "T-009", "text": "An ex-employee still has access to our workspace and we need him removed today. He is also still receiving the weekly digest emails.", "gold_queue": "security"}
+{"id": "T-010", "text": "Can we get invoices in Arabic with our VAT number? Our finance team rejects anything in English.", "gold_queue": "billing"}
+{"id": "T-011", "text": "Everything is fine, I just wanted to say the new search is much faster than before. Thank you.", "gold_queue": "other"}
+{"id": "T-012", "text": "The mobile app crashes when I open a ticket with an Arabic subject line. Android 14, app version 3.2.1.", "gold_queue": "technical"}
