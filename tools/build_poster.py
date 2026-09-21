@@ -111,7 +111,7 @@ PAGE = """<!doctype html>
     paragraph you have to parse. Same answers, one twentieth of the cost, every time.</div>
   <div class="stats">
     <div class="stat reveal" id="st1"><b>0.74s</b><span>per decision &mdash; against 17.15s for a reasoning chat model</span></div>
-    <div class="stat reveal" id="st2"><b>18&times;</b><span>fewer output tokens than a reasoning chat model, same items</span></div>
+    <div class="stat reveal" id="st2"><b>17.6&times;</b><span>fewer output tokens than a reasoning chat model, same items</span></div>
     <div class="stat reveal hot" id="st3"><b>same</b><span>accuracy: 11/12 vs 11/12. The win is the interface, not the brain.</span></div>
   </div>
   <div class="cols">
