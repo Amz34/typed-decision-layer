@@ -2,6 +2,9 @@
 
 **Put the small decisions in your AI stack on rails: a label and a probability, not a paragraph.**
 
+`github.com/Amz34/typed-decision-layer` — every number below is reproducible offline: `make verify`
+(no API key, no network) and `make dry` (prints the real request payload).
+
 Most AI stacks route things — tickets to queues, leads to waves, replies to intents, requests to
 tools, documents to owners. Today that is usually one of two things: a vector search that returns
 a nearest neighbour, or a chat model you ask in prose and then parse.
@@ -24,7 +27,7 @@ changing only the answerer. What came back:
 | hit rate (same items) | 26.7% | 28.3% | **a wash** |
 | hit rate, 6-use-case production lane | 8/8 on the case with gold labels | 8/8 | **a wash** |
 | mean latency / decision | 0.74 s | 17.15 s | **~23× faster** |
-| output tokens | 14.7 k total | 258.3 k total | **~18× fewer** |
+| output tokens | 14.7 k total | 258.3 k total | **17.6× fewer** |
 | valid probability distributions | **77/77 clean** | 0/77 (needed the lenient parser) | — |
 | hedged answers (top-1 < 0.50) | 0 / 12 | 12 / 12 | — |
 

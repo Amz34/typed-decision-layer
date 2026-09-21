@@ -1,8 +1,9 @@
 # Typed decision layer — harness
 PY ?= python3
 
-.PHONY: help selftest dry demo bench poster clean
+.PHONY: help verify selftest dry demo bench poster clean
 help:
+	@echo "make verify     # offline self-check: parsers, batching, data, assets, no leaks"
 	@echo "make selftest   # unit checks, no API key needed"
 	@echo "make dry        # print the exact request payload for one ticket"
 	@echo "make demo       # 12 tickets, 2 typed judgments each, one call per ticket (needs TYPESAFE_API_KEY)"
@@ -12,7 +13,10 @@ help:
 	@echo "Never put a key in a file: export TYPESAFE_API_KEY=... (or use a secret manager)"
 
 selftest:
-	cd harness && $(PY) decision_client.py --selftest
+	$(PY) harness/decision_client.py --selftest
+
+verify:
+	$(PY) tools/verify.py
 
 dry:
 	cd harness && $(PY) demo_triage.py --dry-run
