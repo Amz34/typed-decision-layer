@@ -1,5 +1,7 @@
 # Typed decision layer
 
+[![CI](https://github.com/Amz34/typed-decision-layer/actions/workflows/ci.yml/badge.svg)](https://github.com/Amz34/typed-decision-layer/actions/workflows/ci.yml)
+
 **Put the small decisions in your AI stack on rails: a label and a probability, not a paragraph.**
 
 `github.com/Amz34/typed-decision-layer` — every number below is reproducible offline: `make verify`
