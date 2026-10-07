@@ -187,3 +187,7 @@ CHEATSHEET.md                the one-pager (and the image above)
 
 MIT — see [LICENSE](LICENSE). The demo tickets, code and numbers are ours; reproduce, correct or
 contradict them with `bench.py`.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
